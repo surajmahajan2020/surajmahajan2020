@@ -1,0 +1,42 @@
+.logo-container{
+    left: 50px;
+    position: absolute;
+    top: 20px;
+     z-index: 3;
+}
+.logo-container .logo{
+    overflow: hidden;
+    border-radius: 50%;
+    border: 1px solid #333333;
+    width: 60px;
+    float: left;
+}
+.logo-container .brand{
+    font-size: 18px;
+    color: #FFFFFF;
+    line-height: 20px;
+    float: left;
+    margin-left: 10px;
+    margin-top: 10px;
+    width: 60px
+}
+.col-sm-offset-2
+{
+    margin-left: auto;
+    margin-right: auto;
+}
+.nav-pills > li + li,.nav-pills > li 
+{
+    padding: 10px;
+    font-size: 12px;
+    text-align: center;
+}
+.wizard-container {
+    padding-top: 10px;
+    z-index: 3;
+}
+body
+{
+    background-color: rgba(26,32,44,var(--bg-opacity));
+    --bg-opacity: 1;
+}
